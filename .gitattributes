@@ -1,0 +1,19 @@
+
+# Set default behavior to binary for all files
+* binary
+
+# Specify text files
+*.cs text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Specify binary files
+*.unity binary
+*.prefab binary
+*.asset binary
+
+# Ignore certain files and directories
+Temp/    # Ignore Unity temporary files
+Library/ # Ignore Unity library files
+*.sln    # Ignore Visual Studio solution files
